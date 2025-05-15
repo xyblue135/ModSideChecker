@@ -1,10 +1,19 @@
 `以前玩mc的时候都是手动去过滤，相当麻烦，其实.jar是能解压打开的，观看META-INF里面的toml文件可以知道信息`
 
-# 什么是 TOML？什么是json？
+需要注意：本脚本不能保证完全正确客户端还是服务端mod，因为开发者并不是所有都按照标准写！
+# 效果
+需知，空数据为该mod未按照标准化进行编码，需要手动查看，不过这样批量下来进行排序筛选也够了！
+![](images/Pasted%20image%2020250516005228.png)
+且增加了单独的文件管理，能更好的进行cp
+![](images/Pasted%20image%2020250516010501.png)
+可以看到未识别的一些模组一般都是客户端服务端选装且api形式的，以及前置模组。
+![](images/Pasted%20image%2020250516010519.png)
+
+![](images/Pasted%20image%2020250516010416.png)
+# 什么是 TOML？
 - **TOML** 是一种配置文件格式，全称是 "**Tom's Obvious, Minimal Language**"。
 - 设计目标是简洁、易读且易于解析，常用来写程序配置文件。
 - 格式类似 INI，但更严格、支持嵌套表格和数组，结构清晰。
--**JSON**（JavaScript Object Notation）是一种轻量级的数据交换格式。它基于JavaScript编程语言的一个子集，易于人类阅读和编写，同时也易于机器解析和生成。
 
 # Forge
 相关特征代码为META-INF/mods.toml
